@@ -1,0 +1,9 @@
+﻿  MT_2.cpp
+C:\Users\ASUS TUF\source\repos\MT_2\Errors.h(74,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS TUF\source\repos\MT_2\Errors.h(109,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS TUF\source\repos\MT_2\Tape.h(16,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS TUF\source\repos\MT_2\Tape.h(28,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS TUF\source\repos\MT_2\Tape.h(39,32): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\ASUS TUF\source\repos\MT_2\Tape.h(71,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS TUF\source\repos\MT_2\MT_commands.h(64,21): warning C4018: <: несоответствие типов со знаком и без знака
+  MT_2.vcxproj -> C:\Users\ASUS TUF\source\repos\MT_2\Debug\MT_2.exe
