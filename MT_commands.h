@@ -109,7 +109,7 @@ public:
 	void doCommmand(){
 		Command& X = commands[0];
 		for(unsigned int i = 0 ;i < 10000000;i++){
-			//showTape(); ïîêàçàòü êàæäóþ èòåðàöèþ
+			//showTape(); Ã¯Ã®ÃªÃ Ã§Ã Ã²Ã¼ ÃªÃ Ã¦Ã¤Ã³Ã¾ Ã¨Ã²Ã¥Ã°Ã Ã¶Ã¨Ã¾
 			for (int j = 0; j < 2; j++) {
 				switch (j) {
 				case 0: {
@@ -167,7 +167,7 @@ public:
 				}
 				File << "not applicable";
 				File.close();
-				throw Errors();
+				throw FailNotApplicable();
 			}
 			X = find(X.getNextCommand(), *now.current);
 		}
@@ -217,7 +217,7 @@ void MT_Commands::push_back(const Command& X) {
 		commands = tmp;
 		MaxCountOfCommands = newLen;
 	}
-	// Äîáàâèòü íîâûé ýëåìåíò
+	// Ã„Ã®Ã¡Ã Ã¢Ã¨Ã²Ã¼ Ã­Ã®Ã¢Ã»Ã© Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²
 	commands[CountOfCommands++] = X;
 }
 
